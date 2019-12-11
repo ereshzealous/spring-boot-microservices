@@ -1,0 +1,134 @@
+2019-12-11 13:34:20 [main] INFO  c.e.spring.EurekaServerApplication - logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-12-11 13:34:22 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - logWarning - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-11 13:34:22 [main] INFO  o.s.cloud.context.scope.GenericScope - setSerializationId - BeanFactory id=5ff29cbe-4956-3d4e-af45-715616f2cbb6
+2019-12-11 13:34:23 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$16b3511c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-11 13:34:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - initialize - Tomcat initialized with port(s): 8761 (http)
+2019-12-11 13:34:24 [main] INFO  o.a.catalina.core.StandardService - log - Starting service [Tomcat]
+2019-12-11 13:34:24 [main] INFO  o.a.catalina.core.StandardEngine - log - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-11 13:34:24 [main] INFO  o.a.c.core.AprLifecycleListener - log - An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-11 13:34:24 [main] INFO  o.a.c.core.AprLifecycleListener - log - Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-12-11 13:34:24 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-11 13:34:24 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-11 13:34:24 [main] INFO  o.a.c.core.AprLifecycleListener - log - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-11 13:34:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring embedded WebApplicationContext
+2019-12-11 13:34:24 [main] INFO  o.s.web.context.ContextLoader - prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3886 ms
+2019-12-11 13:34:25 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 13:34:25 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 13:34:25 [main] INFO  c.n.config.DynamicPropertyFactory - getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@36681447
+2019-12-11 13:34:26 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - configureArchaius - No spring.application.name found, defaulting to 'application'
+2019-12-11 13:34:26 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 13:34:26 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 13:34:26 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-11 13:34:28 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-11 13:34:28 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - create - Setting initial instance status as: STARTING
+2019-12-11 13:34:33 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - register - Registering application UNKNOWN with eureka with status UP
+2019-12-11 13:34:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - start - Tomcat started on port(s): 8761 (http) with context path ''
+2019-12-11 13:34:33 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - onApplicationEvent - Updating port to 8761
+2019-12-11 13:34:34 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-11 13:34:34 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-12-11 13:34:34 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Completed initialization in 17 ms
+2019-12-11 13:34:34 [main] INFO  c.e.spring.EurekaServerApplication - logStarted - Started EurekaServerApplication in 18.734 seconds (JVM running for 19.891)
+2019-12-11 13:36:05 [main] INFO  c.e.spring.EurekaServerApplication - logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-12-11 13:36:07 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - logWarning - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-11 13:36:07 [main] INFO  o.s.cloud.context.scope.GenericScope - setSerializationId - BeanFactory id=5ff29cbe-4956-3d4e-af45-715616f2cbb6
+2019-12-11 13:36:07 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4b415caa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-11 13:36:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - initialize - Tomcat initialized with port(s): 8761 (http)
+2019-12-11 13:36:09 [main] INFO  o.a.catalina.core.StandardService - log - Starting service [Tomcat]
+2019-12-11 13:36:09 [main] INFO  o.a.catalina.core.StandardEngine - log - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-11 13:36:09 [main] INFO  o.a.c.core.AprLifecycleListener - log - An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-11 13:36:09 [main] INFO  o.a.c.core.AprLifecycleListener - log - Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-12-11 13:36:09 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-11 13:36:09 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-11 13:36:09 [main] INFO  o.a.c.core.AprLifecycleListener - log - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-11 13:36:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring embedded WebApplicationContext
+2019-12-11 13:36:09 [main] INFO  o.s.web.context.ContextLoader - prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4311 ms
+2019-12-11 13:36:09 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 13:36:09 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 13:36:09 [main] INFO  c.n.config.DynamicPropertyFactory - getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7cbeac65
+2019-12-11 13:36:11 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - configureArchaius - No spring.application.name found, defaulting to 'application'
+2019-12-11 13:36:11 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 13:36:11 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 13:36:12 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-11 13:36:15 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-11 13:36:15 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - create - Setting initial instance status as: STARTING
+2019-12-11 13:36:21 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - register - Registering application UNKNOWN with eureka with status UP
+2019-12-11 13:36:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - start - Tomcat started on port(s): 8761 (http) with context path ''
+2019-12-11 13:36:21 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - onApplicationEvent - Updating port to 8761
+2019-12-11 13:36:22 [http-nio-8761-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-11 13:36:22 [http-nio-8761-exec-10] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-12-11 13:36:22 [http-nio-8761-exec-10] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Completed initialization in 36 ms
+2019-12-11 13:36:22 [main] INFO  c.e.spring.EurekaServerApplication - logStarted - Started EurekaServerApplication in 21.821 seconds (JVM running for 23.634)
+2019-12-11 13:39:11 [main] INFO  c.e.spring.EurekaServerApplication - logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-12-11 13:39:13 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - logWarning - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-11 13:39:13 [main] INFO  o.s.cloud.context.scope.GenericScope - setSerializationId - BeanFactory id=384e9ede-b70a-39d2-899f-55e9bfd8e1dc
+2019-12-11 13:39:14 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3ee23d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-11 13:39:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - initialize - Tomcat initialized with port(s): 8761 (http)
+2019-12-11 13:39:15 [main] INFO  o.a.catalina.core.StandardService - log - Starting service [Tomcat]
+2019-12-11 13:39:15 [main] INFO  o.a.catalina.core.StandardEngine - log - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-11 13:39:15 [main] INFO  o.a.c.core.AprLifecycleListener - log - An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-11 13:39:15 [main] INFO  o.a.c.core.AprLifecycleListener - log - Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-12-11 13:39:15 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-11 13:39:15 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-11 13:39:15 [main] INFO  o.a.c.core.AprLifecycleListener - log - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-11 13:39:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring embedded WebApplicationContext
+2019-12-11 13:39:15 [main] INFO  o.s.web.context.ContextLoader - prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3901 ms
+2019-12-11 13:39:15 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 13:39:15 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 13:39:15 [main] INFO  c.n.config.DynamicPropertyFactory - getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@574a89e2
+2019-12-11 13:39:18 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - _initiate - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-12-11 13:39:19 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - configureArchaius - No spring.application.name found, defaulting to 'application'
+2019-12-11 13:39:19 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 13:39:19 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 13:39:19 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-11 13:39:21 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - create - Setting initial instance status as: STARTING
+2019-12-11 13:39:25 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-11 13:39:25 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - register - Registering application UNKNOWN with eureka with status UP
+2019-12-11 13:39:25 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaEnvironment - Setting the eureka configuration..
+2019-12-11 13:39:25 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaEnvironment - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-11 13:39:25 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaEnvironment - Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-11 13:39:26 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws - isAws returned false
+2019-12-11 13:39:26 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaServerContext - Initialized server context
+2019-12-11 13:39:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - start - Tomcat started on port(s): 8761 (http) with context path ''
+2019-12-11 13:39:26 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - onApplicationEvent - Updating port to 8761
+2019-12-11 13:39:26 [http-nio-8761-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-11 13:39:26 [http-nio-8761-exec-10] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-12-11 13:39:26 [http-nio-8761-exec-10] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Completed initialization in 15 ms
+2019-12-11 13:39:27 [main] INFO  c.e.spring.EurekaServerApplication - logStarted - Started EurekaServerApplication in 19.956 seconds (JVM running for 21.572)
+2019-12-11 13:39:56 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - run - Started Eureka Server
+2019-12-11 16:04:33 [main] INFO  c.e.spring.EurekaServerApplication - logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-12-11 16:04:35 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - logWarning - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-12-11 16:04:35 [main] INFO  o.s.cloud.context.scope.GenericScope - setSerializationId - BeanFactory id=384e9ede-b70a-39d2-899f-55e9bfd8e1dc
+2019-12-11 16:04:36 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$262122cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-11 16:04:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - initialize - Tomcat initialized with port(s): 8761 (http)
+2019-12-11 16:04:38 [main] INFO  o.a.catalina.core.StandardService - log - Starting service [Tomcat]
+2019-12-11 16:04:38 [main] INFO  o.a.catalina.core.StandardEngine - log - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-12-11 16:04:38 [main] INFO  o.a.c.core.AprLifecycleListener - log - An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-11 16:04:38 [main] INFO  o.a.c.core.AprLifecycleListener - log - Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2019-12-11 16:04:38 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-11 16:04:38 [main] INFO  o.a.c.core.AprLifecycleListener - log - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-11 16:04:38 [main] INFO  o.a.c.core.AprLifecycleListener - log - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-12-11 16:04:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring embedded WebApplicationContext
+2019-12-11 16:04:38 [main] INFO  o.s.web.context.ContextLoader - prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4922 ms
+2019-12-11 16:04:38 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 16:04:38 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 16:04:38 [main] INFO  c.n.config.DynamicPropertyFactory - getInstance - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@b1534d3
+2019-12-11 16:04:40 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - _initiate - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-12-11 16:04:41 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - configureArchaius - No spring.application.name found, defaulting to 'application'
+2019-12-11 16:04:41 [main] WARN  c.n.c.sources.URLConfigurationSource - <init> - No URLs will be polled as dynamic configuration sources.
+2019-12-11 16:04:41 [main] INFO  c.n.c.sources.URLConfigurationSource - <init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-11 16:04:42 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-11 16:04:44 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - create - Setting initial instance status as: STARTING
+2019-12-11 16:04:49 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - <init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-12-11 16:04:49 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - register - Registering application UNKNOWN with eureka with status UP
+2019-12-11 16:04:49 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaEnvironment - Setting the eureka configuration..
+2019-12-11 16:04:49 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaEnvironment - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-12-11 16:04:49 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaEnvironment - Eureka environment value eureka.environment is not set, defaulting to test
+2019-12-11 16:04:49 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws - isAws returned false
+2019-12-11 16:04:49 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap - initEurekaServerContext - Initialized server context
+2019-12-11 16:04:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - start - Tomcat started on port(s): 8761 (http) with context path ''
+2019-12-11 16:04:49 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - onApplicationEvent - Updating port to 8761
+2019-12-11 16:04:50 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-11 16:04:50 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Initializing Servlet 'dispatcherServlet'
+2019-12-11 16:04:50 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - initServletBean - Completed initialization in 16 ms
+2019-12-11 16:04:51 [main] INFO  c.e.spring.EurekaServerApplication - logStarted - Started EurekaServerApplication in 23.187 seconds (JVM running for 24.443)
+2019-12-11 16:05:19 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - run - Started Eureka Server

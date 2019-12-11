@@ -1,0 +1,20 @@
+server:
+  port: 9010
+
+spring:
+  application:
+    name: product-service
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      default-zone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream, info, health
+      base-path: /

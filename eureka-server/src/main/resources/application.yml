@@ -1,0 +1,27 @@
+#Port for Registry service
+server:
+  port: 8761
+
+#Service should not register with itself
+eureka:
+  client:
+  register-with-eureka: false
+  fetch-registry: false
+
+#Managing the logging
+logging:
+  level:
+    com.netflix.eureka: OFF
+    com.netflix.discovery: OFF
+
+  #logging.level.root=INFO
+  com.eresh.spring : INFO
+
+  file: ${sys:logs}/application.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm} %-5level %logger{36} -%M -%msg%n"
+    file : "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %M - %msg%n"
+
+ribbon:
+  eureka:
+    enabled: true
