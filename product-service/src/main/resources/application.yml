@@ -18,3 +18,13 @@ management:
       exposure:
         include: hystrix.stream, info, health
       base-path: /
+
+hystrix:
+  command:
+    getDefaultDiscount:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 1000
+      circuitBreaker:
+        errorThresholdPercentage: 60

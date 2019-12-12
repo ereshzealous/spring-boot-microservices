@@ -29,7 +29,7 @@ public class ProductController {
 	}
 
 	@GetMapping("/discounts")
-	@HystrixCommand(fallbackMethod = "getDefaultDiscount")
+	@HystrixCommand(fallbackMethod = "getDefaultDiscount", commandKey = "getDefaultDiscount")
 	public ResponseEntity<WSDiscount> getProductDiscount(@RequestParam("id") String id) {
 		ResponseEntity<WSDiscount> responseEntity = baseRestOutboundProcessor.get("http://product-discount.com?id=" + id, null, WSDiscount.class, new HashMap<>());
 		return ResponseEntity.ok(responseEntity.getBody());
